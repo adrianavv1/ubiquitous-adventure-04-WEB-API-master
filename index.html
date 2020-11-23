@@ -3,18 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My first Quiz JS</title>
+    <title>How Well Do You Know Friends?</title>
+    <script defer src="./assets/script.js"></script>
+    <link href="./assets/style.css" rel="stylesheet">
 </head>
-<body>
-  <div class ="container">
-     <div id="question container" class="hide">
-         <div id="question">Question</div>
-         <div id="answer-button" class="btn-grid"></div>
-     <div class="controls">
-         <button id="start-btn" class="start-btn btn">Start</button>
-         <button id="next-btn" class="next-btn btn hide">Next Question</button>
+<body> 
+    <h1 class="logo">How Well Do You Know Friends?</h1>
+      <!--Navigation Bar-->
+  <header class="navbar">
+        <nav>
+            <ul>
+                <li><a href="./" class="active">Home</a></li>
+                <li><a href="#" id="highScores">HighScores</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
 
-        </div>
-  </div> 
+<div class="container flex-center flex-column">
+    <!--container for start of quiz-->
+    <div class="container"> 
+        <div id="start-container">
+            <h1>Ready? Go!</h1>
+            <p id="start-txt">Please keep in mind that this is a timed quiz. Goodluck!</p>
+        </div>  
+        <div class="controls">
+    <div class="start-button">
+        <button class="btn-primary" id="startGame">Start Quiz</button>
+    </div>
+  
+    
+
+    
+  </div> >
 </body>
 </html>

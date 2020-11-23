@@ -1,0 +1,53 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../images/tileable_wood_texture/tileable_wood_texture.png);
+  background-repeat: repeat;
+  background-position: right top;
+  background-attachment: scroll;
+
+}
+/* Font imported from google*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.container {
+    background-color: rgba(247, 239, 239, 0.911);
+    width: 300px;
+    border: 15px solid rgba(16, 51, 28, 0.527);
+    padding: 50px;
+    margin: 20px;
+  }
+/* Navigation Bar*/
+.navbar {
+    background-color: black;
+    height: 70px;
+    color: blanchedalmond;
+    box-shadow: 0 0 5px #000;
+    width: 100vw;
+    max-width: 100%;
+}
+.navbar .flex {
+    justify-content: space-between;
+}
+.navbar ul {
+    display: inline-block;
+    margin: 0 10px;
+}
+.navbar a {
+    color: burlywood;
+    padding: 10px;
+    margin: 0 5px;
+}
+
+.navbar a:hover {
+    color: cornsilk;
+    border-bottom: 2px solid cornsilk;
+}
