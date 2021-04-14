@@ -39,7 +39,7 @@ header {
     }
     
     p:hover {
-        background-color: purple;
+        background-color: rgb(138, 9, 95);
         color: white;
     }
     
@@ -49,31 +49,6 @@ header {
         margin-right: 10px;
         margin-top: 30px
     }
-    
-    
-    
-    /* TODO: Test styles for centering default text on landing only */
-    
-    /* .intro {
-        padding-bottom: 20px;
-        text-align: center;
-        margin: auto;
-        width: 80%;
-    }
-    .center {
-        text-align: center;
-        margin: auto;
-        width: 80%;
-    }
-    .button-center {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
-     */
-    
-    
-     /* END QUIZ */
     
     .result {
         font-size: 18px;

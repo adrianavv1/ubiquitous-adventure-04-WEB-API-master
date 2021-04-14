@@ -35,10 +35,4 @@ clearBtn.addEventListener("click", function () {
         element.remove();
     }
 
-    // if (highScores.length === 0) {
-    //     var noScores = document.createElement("p");
-    //     noScores.setAttribute("class", "no-scores");
-    //     highScoresList.appendChild(noScores);
-    //     noScores.textContent = "No high scores yet!";
-
 });
